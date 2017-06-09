@@ -11,4 +11,5 @@ public class Colegio {
 		System.out.println("Su direccion es" + direccion);
 	}
 
+
 }

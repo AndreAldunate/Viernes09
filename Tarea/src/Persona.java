@@ -6,6 +6,11 @@
         private String nombre;
         private int edad;
         private String apellido;
+    public Persona (String n,int e,String a){
+        nombre=n;
+        edad=e;
+        apellido=a;
+    }
 
         public void mostrar() {
             System.out.println("El nombre de la persona es:" + nombre);
