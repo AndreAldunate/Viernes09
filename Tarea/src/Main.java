@@ -4,6 +4,7 @@
 public class Main {
 
     public static void main(String[] args) {
+        //Comentario de geral
         Persona p = new Persona("Andre",20,"Aldunate");
         Curso c = new Curso("Rojo", "Bloque D");
         Materia m = new Materia();
