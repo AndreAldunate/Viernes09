@@ -6,6 +6,7 @@
         private String nombre;
         private int edad;
         private String apellido;
+
     public Persona (String n,int e,String a){
         nombre=n;
         edad=e;
