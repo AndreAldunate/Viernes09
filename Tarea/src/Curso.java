@@ -10,7 +10,7 @@ public class Curso {
 
     public void mostrar(){
         System.out.println("El nombre del curso es: " + nombre);
-        System.out.println("El nombre del bloque del curso es: " + bloque);
+        System.out.println("El bloque del curso es: " + bloque);
 
     }
 }
