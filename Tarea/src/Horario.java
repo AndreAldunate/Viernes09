@@ -38,5 +38,9 @@ public class Horario {
 	public String toString() {
 		return materia + " " + dias + " " + hora;
 	}
+	
+	public void mostrar(){
+		System.out.println(this);
+	}
 
 }
