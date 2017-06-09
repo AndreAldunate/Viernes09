@@ -2,7 +2,7 @@
 public class Horario {
 	private String dias;
 	private double hora;
-	private String materia;
+	private Materia materia;
 
 	public String getDias() {
 		return dias;
@@ -20,15 +20,15 @@ public class Horario {
 		this.hora = hora;
 	}
 
-	public String getMateria() {
+	public Materia getMateria() {
 		return materia;
 	}
 
-	public void setMateria(String materia) {
+	public void setMateria(Materia materia) {
 		this.materia = materia;
 	}
 
-	public Horario(String d, double h, String m) {
+	public Horario(String d, double h, Materia m) {
 		dias = d;
 		hora = h;
 		materia = m;
